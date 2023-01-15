@@ -1,0 +1,36 @@
+body {
+    background-image: url(yosemite.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+h1 {
+    text-decoration: underline 2px;
+    text-align: center;
+}
+
+h1 + p {
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255, 0.5);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Library e-card Registration</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a>
+                    <a href="catalog.html">View Catalog</a></li>
+            </ul>
+            
+        </nav>
+        <h1>Welcome, to the Dolly County Free Library!</h1>
+        <p>Thank you for expressing interest in a virtual library card with us! Please note, non-resident applications are subject to a one-time fee of $20 to access to our virtual catalog.
+        Please complete the registration form below to get started.</p>
+        <form>
+            First name: <input type="text" name="firstname"><br>
+            Last name: <input type="text" name="lastname"><br>
+            Email: <input type="email" name="email"><br>
+            Birthday: <input type="date" name="birthday"><br>
+            Pin: <input type="password" name="pin" placeholder="Please enter a 4-digit PIN" minlength="4" maxlength="4" required><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="other">Other<br>
+            Select type:
+            <select>
+                <option value="resident">Resident</option>
+                <option value="non-resident">Non-resident</option>
+            </select><br>
+            <input type="submit" value="Register">
+            <input type="reset">
+
+        </form>
+        <a href="other.html">Privacy Notice</a>
+    </body>
+</html>
